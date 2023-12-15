@@ -14,8 +14,13 @@ https://pytorch-geometric.com/whl/torch-1.12.0%2Bcu113.html
 
 
 usage:
+
 python main.py --text "a running thin man" --workspace trial -O
+
 python main.py --workspace trial -O --test
+
 python main.py --workspace trial -O --test --save_mesh
+
 python quick_start.py
+
 python maya_save_fbx.py  //save .obj and .mtl in advance
