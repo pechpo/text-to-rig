@@ -1,10 +1,17 @@
 Environment:
+
 For pretrained weights and python package dependencies, see
+
 https://github.com/ashawkey/stable-dreamfusion
+
 https://github.com/zhan-xu/RigNet
+
 Test environment:
+
 Ubuntu 22 with python=3.7 & torch 1.12 & CUDA 11.3 on a V100.
+
 Attention:
+
 1. Download several packages by hand:
 https://pytorch-geometric.com/whl/torch-1.12.0%2Bcu113.html
 2. "apt install xvfb" to avoid error caused by lack of GUI display
